@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync
+      - run: uv run ruff check .
+      - run: uv run pytest -q
+      # The decomposer, sufficiency check and agent loop must work without the
+      # 1.1 GB models; tests inject a stub retriever for exactly that reason.
+      - name: import smoke test
+        run: uv run python -c "from agent.agent import AgenticRAG; from rag.hybrid import HybridRetriever; print('ok')"
+        env:
+          PYTHONPATH: src

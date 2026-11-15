@@ -1,0 +1,10 @@
+{"qid":"c01","question":"血压多少算高？","gold_chunk_id":"hypertension_2024:p11:c0"}
+{"qid":"c02","question":"家里量血压多少算不正常？","gold_chunk_id":"hypertension_2024:p11:c0"}
+{"qid":"c03","question":"一天吃盐别超过多少？","gold_chunk_id":"hypertension_2024:p3:c0"}
+{"qid":"c04","question":"血糖多高就是糖尿病了？","gold_chunk_id":"t2dm_2020:p4:c4"}
+{"qid":"c05","question":"糖尿病人的糖化血红蛋白要控制在多少？","gold_chunk_id":"t2dm_2020:p12:c3"}
+{"qid":"c06","question":"打胰岛素的人低血糖怎么分轻重？","gold_chunk_id":"t2dm_2020:p47:c0"}
+{"qid":"c07","question":"糖尿病要多久查一次眼底？","gold_chunk_id":"t2dm_2020:p10:c0"}
+{"qid":"c08","question":"老人血压降到多少合适？","gold_chunk_id":"hypertension_2024:p41:c2"}
+{"qid":"c09","question":"什么情况要两种降压药一起吃？","gold_chunk_id":"hypertension_2024:p19:c5"}
+{"qid":"c10","question":"二甲双胍是首选药吗？","gold_chunk_id":"t2dm_2020:p14:c1"}

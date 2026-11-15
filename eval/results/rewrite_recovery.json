@@ -1,0 +1,303 @@
+{
+  "summary": {
+    "n": 10,
+    "threshold": 2.0,
+    "top_k": 5,
+    "answerable_at": {
+      "attempt_0": 0.4,
+      "attempt_1": 0.5,
+      "attempt_2": 0.5
+    },
+    "gold_in_topk_at": {
+      "attempt_0": 0.2,
+      "attempt_1": 0.2,
+      "attempt_2": 0.1
+    },
+    "recovered_by_rewrite": [
+      "c06",
+      "c10"
+    ]
+  },
+  "rows": [
+    {
+      "qid": "c01",
+      "question": "血压多少算高？",
+      "gold_chunk_id": "hypertension_2024:p11:c0",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "血压多少算高？",
+          "top_score": 4.1646,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "血压算高",
+          "top_score": 3.2444,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "血压算高 临床指南 推荐",
+          "top_score": 3.2227,
+          "sufficient": true,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c02",
+      "question": "家里量血压多少算不正常？",
+      "gold_chunk_id": "hypertension_2024:p11:c0",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "家里量血压多少算不正常？",
+          "top_score": -0.3367,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "家里量血压算不正常",
+          "top_score": -0.0745,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "家里量血压算不正常 临床指南 推荐",
+          "top_score": -0.4847,
+          "sufficient": false,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c03",
+      "question": "一天吃盐别超过多少？",
+      "gold_chunk_id": "hypertension_2024:p3:c0",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "一天吃盐别超过多少？",
+          "top_score": -1.943,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "一天吃盐别超过",
+          "top_score": -4.0274,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "一天吃盐别超过 临床指南 推荐",
+          "top_score": -3.3346,
+          "sufficient": false,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c04",
+      "question": "血糖多高就是糖尿病了？",
+      "gold_chunk_id": "t2dm_2020:p4:c4",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "血糖多高就是糖尿病了？",
+          "top_score": 1.1294,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "血糖多高就是糖尿病了",
+          "top_score": 0.9523,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "血糖多高就是糖尿病了 临床指南 推荐",
+          "top_score": 1.3998,
+          "sufficient": false,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c05",
+      "question": "糖尿病人的糖化血红蛋白要控制在多少？",
+      "gold_chunk_id": "t2dm_2020:p12:c3",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "糖尿病人的糖化血红蛋白要控制在多少？",
+          "top_score": 3.0142,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "糖尿病人的糖化血红蛋白要控制在",
+          "top_score": 2.0555,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "糖尿病人的糖化血红蛋白要控制在 临床指南 推荐",
+          "top_score": 3.1703,
+          "sufficient": true,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c06",
+      "question": "打胰岛素的人低血糖怎么分轻重？",
+      "gold_chunk_id": "t2dm_2020:p47:c0",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "打胰岛素的人低血糖怎么分轻重？",
+          "top_score": 1.3696,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "打胰岛素的人低血糖怎么分轻重",
+          "top_score": 2.4241,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "打胰岛素的人低血糖怎么分轻重 临床指南 推荐",
+          "top_score": 2.1595,
+          "sufficient": true,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c07",
+      "question": "糖尿病要多久查一次眼底？",
+      "gold_chunk_id": "t2dm_2020:p10:c0",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "糖尿病要多久查一次眼底？",
+          "top_score": 0.2765,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "糖尿病要多久查一次眼底",
+          "top_score": -0.742,
+          "sufficient": false,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "糖尿病要多久查一次眼底 临床指南 推荐",
+          "top_score": -0.2994,
+          "sufficient": false,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c08",
+      "question": "老人血压降到多少合适？",
+      "gold_chunk_id": "hypertension_2024:p41:c2",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "老人血压降到多少合适？",
+          "top_score": 4.1093,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 1,
+          "query": "老人血压降到合适",
+          "top_score": 4.3531,
+          "sufficient": true,
+          "gold_in_topk": true
+        },
+        {
+          "attempt": 2,
+          "query": "老人血压降到合适 临床指南 推荐",
+          "top_score": 3.4125,
+          "sufficient": true,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c09",
+      "question": "什么情况要两种降压药一起吃？",
+      "gold_chunk_id": "hypertension_2024:p19:c5",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "什么情况要两种降压药一起吃？",
+          "top_score": 2.6172,
+          "sufficient": true,
+          "gold_in_topk": true
+        },
+        {
+          "attempt": 1,
+          "query": "情况要两种降压药一起吃",
+          "top_score": 2.8241,
+          "sufficient": true,
+          "gold_in_topk": false
+        },
+        {
+          "attempt": 2,
+          "query": "情况要两种降压药一起吃 临床指南 推荐",
+          "top_score": 1.7104,
+          "sufficient": false,
+          "gold_in_topk": false
+        }
+      ]
+    },
+    {
+      "qid": "c10",
+      "question": "二甲双胍是首选药吗？",
+      "gold_chunk_id": "t2dm_2020:p14:c1",
+      "attempts": [
+        {
+          "attempt": 0,
+          "query": "二甲双胍是首选药吗？",
+          "top_score": 1.0694,
+          "sufficient": false,
+          "gold_in_topk": true
+        },
+        {
+          "attempt": 1,
+          "query": "二甲双胍是首选药",
+          "top_score": 1.1188,
+          "sufficient": false,
+          "gold_in_topk": true
+        },
+        {
+          "attempt": 2,
+          "query": "二甲双胍是首选药 临床指南 推荐",
+          "top_score": 2.4565,
+          "sufficient": true,
+          "gold_in_topk": true
+        }
+      ]
+    }
+  ]
+}
